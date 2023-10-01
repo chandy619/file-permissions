@@ -37,7 +37,7 @@ Start by opening 'Active Directory Users and Computers' from the Start menu. Fin
 <img width="358" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/6b754c53-ae87-4f53-a7a7-d3108723d304">
 </p>
 <p>
-Switch to Client'1's VM and open File Explorer. Enter '\\dc-1' to locate the network shared folders. Because you are logged in as a normal 'Domain User', you will notice you won't have access to the 'no-access' folder and you will not be able to add new files to the 'read-access' folder, but you will be able to in the 'write-access' folder. This is because we've set specific permissions for each folder.
+Switch to Client'1's VM and open File Explorer. Enter '\\dc-1' to locate the network shared folders. Since you are logged in as a normal 'Domain User', you will notice you won't have access to the 'no-access' folder and you will not be able to add new files to the 'read-access' folder, but you will be able to in the 'write-access' folder. This is because we've set specific permissions for each folder.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ Switch to Client'1's VM and open File Explorer. Enter '\\dc-1' to locate the net
 <img width="285" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/46c8f441-e9df-49f1-b9a5-4b8d16329b6b">
 </p>
 <p>
-Now, go back to DC-1, in Active Directory (AD), we will create a new Organizational Unit (OU) name '_SECURITY_GROUPS'. Within the new OU, create a new group called 'ACCOUNTANTS'. Next, open up File Explorer to set permissions to the 'accounting' folder. Right-click folder > 'Sharing' tab > type in 'ACCOUNTANTS' > 'Add' button > set permission level to 'Read/Write' > 'Share' button. We have essentially allowed members of the 'ACCOUNTANTS' group access to the 'accounting' folder.
+Next, go back to DC-1, in Active Directory (AD), we will create a new Organizational Unit (OU) named '_SECURITY_GROUPS'. Within the new OU, create a new group called 'ACCOUNTANTS'. Then, open up File Explorer to set permissions to the 'accounting' folder. Right-click folder > 'Sharing' tab > type in 'ACCOUNTANTS' > 'Add' button > set permission level to 'Read/Write' > 'Share' button. We have essentially allowed members of the 'ACCOUNTANTS' group access to the 'accounting' folder.
 </p>
 <br />
 
