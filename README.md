@@ -28,15 +28,16 @@ This lab focuses on file shares and permissions in the context of an Active Dire
 <img width="796" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/bf091233-1d7b-4f14-8aa0-8a2361cdd2b5">
 </p>
 <p>
-Start by finding a random username generated from the previous lab, i.e. Bah Dop, and login to Client-1 VM using Remote Desktop. Remember the password is 'Password1'. Back on DC-1, create 4 folders on the C:\ drive and label each: 'Read-access', "Write-access', 'No-access', 'Accounting'. Open up 'Active Directory Users and Computers' from the Start menu. Set the following permissions for each folder by right-clicking the folder > 'Permissions' > 'Sharing' tab > 'Share' button > type in 'Domain Users' > 'Add' button > set permission level to 'Read' > 'Share' button. We'll do the dame for the "Write- access' folder except the permission level will be for 'Read/Write'. Next, we'll follow the same steps for the 'No-access' folder, except we'll type in 'Domain Admins' for share access and allow 'Read/Write' permissions.
+Start by opening 'Active Directory Users and Computers' from the Start menu. Find a random username generated from the previous lab, i.e. Bah Dop, and login to Client-1 VM using Remote Desktop. Remember the password is 'Password1'. Back on DC-1, create 4 folders on the C:\ drive and label each: 'read-access', "write-access', 'no-access', 'accounting'. To set the permissions for each folder, begin by right-clicking on a folder. We'll start with 'read-access' > 'Permissions' > 'Sharing' tab > 'Share' button > type in 'Domain Users' > 'Add' button > set permission level to 'Read' > 'Share' button. We'll do the same for the "write- access' folder except the permission level will be for 'Read/Write'. Next, we'll follow the same steps for the 'no-access' folder, except we'll type in 'Domain Admins' instead and allow 'Read/Write' permissions. We'll come back to the 'accounting' folder later.
 </p>
 <br />
 
 <p>
-IMAGE
+<img width="372" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/d22bd818-e4af-4132-9531-a06b87ba28f0">
+<img width="358" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/6b754c53-ae87-4f53-a7a7-d3108723d304">
 </p>
 <p>
-TEXT
+Switch to Client'1's VM and open File Explorer. Enter '\\dc-1' to locate the network shared folders. Because you are logged in as a normal 'Domain User', you will notice you won't have access to the 'no-access' folder and you will not be able to add new files to the 'read-access' folder, but you will be able to in the 'write-access' folder. This is because we've set specific permissions for each folder.
 </p>
 <br />
 
