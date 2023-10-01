@@ -47,22 +47,15 @@ Switch to Client'1's VM and open File Explorer. Enter '\\dc-1' to locate the net
 <img width="285" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/46c8f441-e9df-49f1-b9a5-4b8d16329b6b">
 </p>
 <p>
-Now, go back to DC-1, in Active Directory, we will create a new Organizational Unit (OU) name '_SECURITY_GROUPS'. Within the new OU, create a new group called 'ACCOUNTANTS'. Next, open up File Explorer to set permissions to the 'accounting' folder. Right-click folder > 'Sharing' tab > type in 'ACCOUNTANTS' > 'Add' button > set permission level to 'Read/Write' > 'Share' button. 
+Now, go back to DC-1, in Active Directory (AD), we will create a new Organizational Unit (OU) name '_SECURITY_GROUPS'. Within the new OU, create a new group called 'ACCOUNTANTS'. Next, open up File Explorer to set permissions to the 'accounting' folder. Right-click folder > 'Sharing' tab > type in 'ACCOUNTANTS' > 'Add' button > set permission level to 'Read/Write' > 'Share' button. We have essentially allowed members of the 'ACCOUNTANTS' group access to the 'accounting' folder.
 </p>
 <br />
 
 <p>
-IMAGE
+<img width="350" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/cc46345d-fbc6-4b12-967d-b86d94a01bed">
+<img width="360" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/10ef2024-c5b0-466e-a53f-32e3b826391a">
 </p>
 <p>
-TEXT
-</p>
-<br />
-
-<p>
-IMAGE
-</p>
-<p>
-TEXT
+From AD, double-click on the 'ACCOUNTANTS' group name, click on the 'Members' tab. To add Client-1's user to the group, click on the 'Add' button and type in the username. Remember to click 'Check Names' so that it populates correctly before clicking 'OK' and 'Apply'. Return to Client-1 and logoff so that when you log back in, the new permissions will apply. In File Explorer, you will be able to open the 'accounting' folder.
 </p>
 <br />
