@@ -16,13 +16,13 @@ This lab focuses on file shares and permissions in the context of an Active Dire
 - Windows Server 2022
 - Windows 10 Pro (21H2)
 
-<h2>High-Level Steps Steps</h2>
+<h2>High-Level Steps</h2>
 
 - Create Sample Files with Various Permissions
 - Attempt Accessing File Shares
 - Create Security Group, Assign Permissions, Test Access
   
-<h2>File Permissions Configuration Steps</h2>
+<h2>File Shares and Permissions Configuration Steps</h2>
 
 <p>
 <img width="796" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/bf091233-1d7b-4f14-8aa0-8a2361cdd2b5">
