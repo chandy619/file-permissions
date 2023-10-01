@@ -42,10 +42,12 @@ Switch to Client'1's VM and open File Explorer. Enter '\\dc-1' to locate the net
 <br />
 
 <p>
-IMAGE
+<img width="267" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/99fa91df-f6f0-411e-805a-80b1832498be">
+<img width="217" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/c39f1d47-8f58-43fb-9717-8c10d597730f">
+<img width="285" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/46c8f441-e9df-49f1-b9a5-4b8d16329b6b">
 </p>
 <p>
-TEXT
+Now, go back to DC-1, in Active Directory, we will create a new Organizational Unit (OU) name '_SECURITY_GROUPS'. Within the new OU, create a new group called 'ACCOUNTANTS'. Next, open up File Explorer to set permissions to the 'accounting' folder. Right-click folder > 'Sharing' tab > type in 'ACCOUNTANTS' > 'Add' button > set permission level to 'Read/Write' > 'Share' button. 
 </p>
 <br />
 
