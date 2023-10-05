@@ -55,7 +55,7 @@ Next, go back to DC-1, in Active Directory (AD), we will create a new Organizati
 <br />
 
 <p>
-<img width="960" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/0a4854ad-8d47-406e-ac45-637a31d682cd">
+<img width="960" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/5933d025-466e-4a3b-9039-b06964ebcbf4">
 <img width="960" alt="image" src="https://github.com/chandy619/file-permissions/assets/144288806/471ccb85-1502-4930-b765-a6d7d052a81e">
 </p>
 <p>
